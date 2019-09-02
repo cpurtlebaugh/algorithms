@@ -19,6 +19,6 @@ function getMaxSubSum(testArr) {
 
 // RUN SCRIPT
 // babel-node algorithms/maxSubSum.js
-(async function (){
-	console.log(getMaxSubSum(testArr));
-})();
+console.log((async function (){
+	getMaxSubSum(testArr);
+})());
